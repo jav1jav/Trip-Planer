@@ -1,11 +1,24 @@
 {
   "name": "trip-planer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morganb816/Trip-Planer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Morganb816/Trip-Planer/issues"
+  },
+  "homepage": "https://github.com/Morganb816/Trip-Planer#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }
