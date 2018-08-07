@@ -1,14 +1,47 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #C1B5AD;
   }
 
-  #map {
-  	height: 100vh;
-  	width: 100vw;
+  #page {
+
   }
+
+  #nav {
+    height: 40vh;
+  }
+
+  #parent_container {
+    display: flex;
+    height: 80vh;
+  }
+
+  #map {
+    flex-grow: 3;
+
+    /* width: 75vw; */
+  }
+
+  #right_container {
+    flex-direction: column;
+    align-content: space-between;
+    flex-grow: 1;
+    /* align-items: center; */
+
+
+    /* width: 25vw; */
+  }
+
+    #markers {
+      align-content: space-between;
+    }
+
+    #itinerary {
+
+      align-content: space-between;
+    }
